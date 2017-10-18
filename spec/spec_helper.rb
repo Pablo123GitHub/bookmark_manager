@@ -1,9 +1,9 @@
 
 
-require 'rack/test'
-require './app.rb'
+require './app/app'
 require 'capybara/rspec'
-require './app/models/link.rb'
+require './app/models/link'
+Capybara.app = BookmarkManager
 
 
 
