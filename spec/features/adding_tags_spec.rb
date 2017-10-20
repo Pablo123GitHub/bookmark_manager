@@ -22,3 +22,4 @@ feature 'Adding tags' do
     expect(link.tags.map(&:name)).to include('google', 'searchEngine')
   end
 end
+ 
